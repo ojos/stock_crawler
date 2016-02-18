@@ -17,7 +17,7 @@ clone from git
 install requirements
 
    ```
-   cd python_slack_bot
+   cd stock_crawler
    pip install -r requirements.txt -t lib
    ```
 
