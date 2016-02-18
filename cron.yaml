@@ -1,0 +1,4 @@
+cron:
+- description: crawl my stocks
+  url: /__cron__/stocks
+  schedule: every 10 minutes
