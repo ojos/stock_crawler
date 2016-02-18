@@ -36,14 +36,15 @@ Remote login to the local:
    remote_api_shell.py -s localhost:8080
    ```
 
-## deploy slack_bot
+## deploy stock crawler
 
 1. edit app.yaml
     * modify ```application```
 2. edit src/stock/api.py
     * modify ```stock_user```
-3. edit src/stock/api.py
-    * modify ```_TOKEN```
+3. edit src/crawlers/ping.py
+    * add ```_TOKEN```
+    * modify ```_CHANNEL```
 4. deploy to AppEngine
     * ```appcfg.py update .```
 
