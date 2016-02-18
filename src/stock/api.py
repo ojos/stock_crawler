@@ -12,7 +12,7 @@ from .models import Stock, CurrentStock
 
 class StockApi(object):
     stock_api_url = 'https://qiita.com/api/v2/users/%s/stocks?page=%d&per_page=%d'
-    stock_user = 'aizu'
+    stock_user = 'your_name'
     stock_count = 100
 
     def __init__(self):
